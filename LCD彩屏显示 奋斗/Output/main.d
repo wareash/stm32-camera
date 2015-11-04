@@ -1,0 +1,11 @@
+..\Output\main.o: main.c
+..\Output\main.o: lcd_display.h
+..\Output\main.o: ..\CMSIS\stm32f10x.h
+..\Output\main.o: ..\CMSIS\core_cm3.h
+..\Output\main.o: C:\Keil\\ARM\RV31\INC\stdint.h
+..\Output\main.o: ..\CMSIS\system_stm32f10x.h
+..\Output\main.o: ..\USER\stm32f10x_conf.h
+..\Output\main.o: ..\FWLIB\inc\stm32f10x_fsmc.h
+..\Output\main.o: ..\CMSIS\stm32f10x.h
+..\Output\main.o: ..\FWLIB\inc\stm32f10x_gpio.h
+..\Output\main.o: ..\FWLIB\inc\stm32f10x_rcc.h

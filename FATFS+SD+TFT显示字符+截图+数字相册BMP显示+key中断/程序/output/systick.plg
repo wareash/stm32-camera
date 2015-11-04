@@ -1,0 +1,702 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\fatfs0.09.uvproj
+Project File Date:  07/11/2014
+
+<h2>Output:</h2>
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.222V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling key_led_control.c...
+linking...
+..\output\systick.axf: Error: L6218E: Undefined symbol EXTI_ClearITPendingBit (referred from stm32f10x_it.o).
+..\output\systick.axf: Error: L6218E: Undefined symbol EXTI_GetITStatus (referred from stm32f10x_it.o).
+..\output\systick.axf: Error: L6218E: Undefined symbol EXTI_Init (referred from key_led_control.o).
+Target not created
+Build target 'Target 1'
+compiling stm32f10x_exti.c...
+linking...
+Program Size: Code=32626 RO-data=179290 RW-data=1632 ZI-data=58496  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(92): warning:  #177-D: variable "a" was declared but never referenced
+main.c(92): warning:  #177-D: variable "b" was declared but never referenced
+main.c(92): warning:  #177-D: variable "c" was declared but never referenced
+compiling key_led_control.c...
+key_led_control.c(195): error:  #20: identifier "a" is undefined
+key_led_control.c(198): error:  #20: identifier "b" is undefined
+key_led_control.c(201): error:  #20: identifier "c" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling key_led_control.c...
+linking...
+Program Size: Code=32714 RO-data=179290 RW-data=1636 ZI-data=58492  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.209V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+main.c(93): error:  #20: identifier "_it0" is undefined
+compiling key_led_control.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(30): error:  #65: expected a ";"
+main.c(72): warning:  #12-D: parsing restarts here after previous syntax error
+main.c(73): error:  #79: expected a type specifier
+main.c(73): error:  #79: expected a type specifier
+main.c(73): error:  #79: expected a type specifier
+main.c(73): error:  #79: expected a type specifier
+main.c(73): error:  #79: expected a type specifier
+main.c(73): warning:  #77-D: this declaration has no storage class or type specifier
+main.c(73): error:  #147: declaration is incompatible with "void LCD_Char_CH(u16, u16, const u8 *, u16, u16)" (declared at line 119 of "lcd.h")
+main.c(74): error:  #79: expected a type specifier
+main.c(74): error:  #79: expected a type specifier
+main.c(74): error:  #79: expected a type specifier
+main.c(74): error:  #79: expected a type specifier
+main.c(74): error:  #79: expected a type specifier
+main.c(74): warning:  #77-D: this declaration has no storage class or type specifier
+main.c(74): error:  #147: declaration is incompatible with "void LCD_Str_CH(u16, u16, const u8 *, u16, u16)" (declared at line 123 of "lcd.h")
+main.c(76): error:  #79: expected a type specifier
+main.c(76): error:  #79: expected a type specifier
+main.c(76): error:  #79: expected a type specifier
+main.c(76): error:  #79: expected a type specifier
+main.c(76): error:  #79: expected a type specifier
+main.c(76): warning:  #77-D: this declaration has no storage class or type specifier
+main.c(78): error:  #79: expected a type specifier
+main.c(78): error:  #79: expected a type specifier
+main.c(78): error:  #757: variable "str2" is not a type name
+main.c(78): error:  #79: expected a type specifier
+main.c(78): error:  #79: expected a type specifier
+main.c(78): warning:  #77-D: this declaration has no storage class or type specifier
+main.c(78): error:  #147: declaration is incompatible with "void LCD_Str_O(u16, u16, const u8 *, u16, u16)" (declared at line 113 of "lcd.h")
+main.c(81): error:  #79: expected a type specifier
+main.c(81): error:  #79: expected a type specifier
+main.c(81): error:  #79: expected a type specifier
+main.c(81): error:  #79: expected a type specifier
+main.c(81): warning:  #77-D: this declaration has no storage class or type specifier
+main.c(81): error:  #147: declaration is incompatible with "void Lcd_show_bmp(unsigned short, unsigned short, unsigned char *, uint8_t)" (declared at line 69 of "Sd_bmp.h")
+main.c(85): error:  #79: expected a type specifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(93): error:  #20: identifier "_it0" is undefined
+compiling Sd_bmp.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling key_led_control.c...
+key_led_control.c(206): error:  #20: identifier "_key_push" is undefined
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+linking...
+Program Size: Code=32894 RO-data=179290 RW-data=1640 ZI-data=58496  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=32894 RO-data=179290 RW-data=1640 ZI-data=58496  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.215V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling sd_fs_app.c...
+compiling key_led_control.c...
+linking...
+Program Size: Code=32898 RO-data=179290 RW-data=1640 ZI-data=58496  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.209V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+compiling Sd_bmp.c...
+linking...
+Program Size: Code=32898 RO-data=179290 RW-data=1640 ZI-data=58496  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.209V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=32878 RO-data=179290 RW-data=1640 ZI-data=58496  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=33014 RO-data=179290 RW-data=1636 ZI-data=58492  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.209V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+Sd_bmp.h(6): error:  #3: #include file "Sd_bmp.h" includes itself
+compiling stm32f10x_it.c...
+compiling Sd_bmp.c...
+Sd_bmp.h(6): error:  #3: #include file "Sd_bmp.h" includes itself
+compiling key_led_control.c...
+key_led_control.c(206): warning:  #223-D: function "Screen_shot" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling main.c...
+Sd_bmp.h(19): error:  #101: "tagBITMAPFILEHEADER" has already been declared in the current scope
+Sd_bmp.h(26): error:  #256: invalid redeclaration of type name "BITMAPFILEHEADER" (declared at line 26)
+Sd_bmp.h(26): error:  #256: invalid redeclaration of type name "tagBITMAPFILEHEADER" (declared at line 26)
+Sd_bmp.h(29): error:  #101: "tagBITMAPINFOHEADER" has already been declared in the current scope
+Sd_bmp.h(42): error:  #256: invalid redeclaration of type name "BITMAPINFOHEADER" (declared at line 42)
+Sd_bmp.h(42): error:  #256: invalid redeclaration of type name "tagBITMAPINFOHEADER" (declared at line 42)
+Sd_bmp.h(45): error:  #101: "tagRGBQUAD" has already been declared in the current scope
+Sd_bmp.h(52): error:  #256: invalid redeclaration of type name "RGBQUAD" (declared at line 52)
+Sd_bmp.h(52): error:  #256: invalid redeclaration of type name "tagRGBQUAD" (declared at line 52)
+Sd_bmp.h(55): error:  #101: "RGB_PIXEL" has already been declared in the current scope
+Sd_bmp.h(60): error:  #256: invalid redeclaration of type name "RGB_PIXEL" (declared at line 60)
+Sd_bmp.h(72): error:  #147-D: declaration is incompatible with "int write_bmp(RGB_PIXEL *, int, int, char *)" (declared at line 72)
+compiling stm32f10x_it.c...
+compiling Sd_bmp.c...
+compiling key_led_control.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+Sd_bmp.h(19): error:  #101: "tagBITMAPFILEHEADER" has already been declared in the current scope
+Sd_bmp.h(26): error:  #256: invalid redeclaration of type name "BITMAPFILEHEADER" (declared at line 26)
+Sd_bmp.h(26): error:  #256: invalid redeclaration of type name "tagBITMAPFILEHEADER" (declared at line 26)
+Sd_bmp.h(29): error:  #101: "tagBITMAPINFOHEADER" has already been declared in the current scope
+Sd_bmp.h(42): error:  #256: invalid redeclaration of type name "BITMAPINFOHEADER" (declared at line 42)
+Sd_bmp.h(42): error:  #256: invalid redeclaration of type name "tagBITMAPINFOHEADER" (declared at line 42)
+Sd_bmp.h(45): error:  #101: "tagRGBQUAD" has already been declared in the current scope
+Sd_bmp.h(52): error:  #256: invalid redeclaration of type name "RGBQUAD" (declared at line 52)
+Sd_bmp.h(52): error:  #256: invalid redeclaration of type name "tagRGBQUAD" (declared at line 52)
+Sd_bmp.h(55): error:  #101: "RGB_PIXEL" has already been declared in the current scope
+Sd_bmp.h(60): error:  #256: invalid redeclaration of type name "RGB_PIXEL" (declared at line 60)
+Sd_bmp.h(72): error:  #147-D: declaration is incompatible with "int write_bmp(RGB_PIXEL *, int, int, char *)" (declared at line 72)
+compiling stm32f10x_it.c...
+compiling key_led_control.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling key_led_control.c...
+key_led_control.c(206): warning:  #223-D: function "Screen_shot" declared implicitly
+linking...
+Program Size: Code=33026 RO-data=179290 RW-data=1636 ZI-data=58492  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling key_led_control.c...
+linking...
+Program Size: Code=33026 RO-data=179290 RW-data=1636 ZI-data=58492  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(209): error:  #167: argument of type "uint8_t" is incompatible with parameter of type "unsigned char *"
+key_led_control.c(198): warning:  #177-D: variable "i" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(209): error:  #167: argument of type "uint8_t" is incompatible with parameter of type "unsigned char *"
+key_led_control.c(198): warning:  #177-D: variable "i" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(209): error:  #167: argument of type "uint8_t" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(209): error:  #75: operand of "*" must be a pointer
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+linking...
+Program Size: Code=33018 RO-data=179290 RW-data=2148 ZI-data=58492  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(209): error:  #75: operand of "*" must be a pointer
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(210): error:  #32: expression must have arithmetic type
+key_led_control.c(210): warning:  #1293-D: assignment in condition
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(211): error:  #32: expression must have arithmetic type
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(212): error:  #18: expected a ")"
+key_led_control.c(219): warning:  #12-D: parsing restarts here after previous syntax error
+key_led_control.c(219): error:  #127: expected a statement
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+linking...
+Program Size: Code=33026 RO-data=179290 RW-data=2148 ZI-data=58492  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.215V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(10): error:  #77-D: this declaration has no storage class or type specifier
+key_led_control.c(10): error:  #147: declaration is incompatible with "uint8_t *i" (declared at line 9)
+key_led_control.c(10): error:  #20: identifier "pic_shoot_name" is undefined
+key_led_control.c(213): error:  #42: operand types are incompatible ("int" and "uint8_t *")
+key_led_control.c(215): error:  #513: a value of type "uint8_t *" cannot be assigned to an entity of type "int"
+key_led_control.c(219): error:  #167: argument of type "int" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(15): error:  #77-D: this declaration has no storage class or type specifier
+key_led_control.c(15): error:  #147: declaration is incompatible with "uint8_t *i" (declared at line 14)
+key_led_control.c(15): error:  #144: a value of type "uint8_t *" cannot be used to initialize an entity of type "int"
+key_led_control.c(216): error:  #42: operand types are incompatible ("int" and "uint8_t *")
+key_led_control.c(218): error:  #513: a value of type "uint8_t *" cannot be assigned to an entity of type "int"
+key_led_control.c(222): error:  #167: argument of type "int" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(214): error:  #32: expression must have arithmetic type
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(214): error:  #32: expression must have arithmetic type
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+key_led_control.c(214): error:  #32: expression must have arithmetic type
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+linking...
+Program Size: Code=33050 RO-data=179290 RW-data=2156 ZI-data=58492  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.215V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...

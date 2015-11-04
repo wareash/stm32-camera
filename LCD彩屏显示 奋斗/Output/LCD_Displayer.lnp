@@ -1,0 +1,4 @@
+--device DARMSTM "..\output\startup_stm32f10x_hd.o" "..\output\lcd_display.o" "..\output\main.o" "..\output\picture2.o" "..\output\picture1.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_fsmc.o" "..\output\stm32f10x_gpio.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" --library_type=microlib --strict --scatter "..\Output\LCD_Displayer.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Listing\LCD_Displayer.map" -o "..\Output\LCD_Displayer.axf"

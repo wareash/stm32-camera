@@ -1,0 +1,47 @@
+*** Creating Trace Output File '..\output\systick.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\output\lcd_botton.o"'
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\pic.o"'
+### List of Objects: adding '"..\output\sd_fs_app.o"'
+### List of Objects: adding '"..\output\sdio_sdcard.o"'
+### List of Objects: adding '"..\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\output\systick.o"'
+### List of Objects: adding '"..\output\usart1.o"'
+### List of Objects: adding '"..\output\lcd_app.o"'
+### List of Objects: adding '"..\output\lcd_gui.o"'
+### List of Objects: adding '"..\output\sd_bmp.o"'
+### List of Objects: adding '"..\output\key_led_control.o"'
+### List of Objects: adding '"..\output\ov7670.o"'
+### List of Objects: adding '"..\output\sccb.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32f10x_dma.o"'
+### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\stm32f10x_sdio.o"'
+### List of Objects: adding '"..\output\stm32f10x_usart.o"'
+### List of Objects: adding '"..\output\stm32f10x_fsmc.o"'
+### List of Objects: adding '"..\output\stm32f10x_exti.o"'
+### List of Objects: adding '"..\output\stm32f10x_spi.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### List of Objects: adding '"..\output\ff.o"'
+### List of Objects: adding '"..\output\diskio.o"'
+### List of Objects: adding '"..\output\cc936.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\startup_stm32f10x_hd.o" "..\output\lcd_botton.o" "..\output\main.o" "..\output\pic.o" "..\output\sd_fs_app.o" "..\output\sdio_sdcard.o" "..\output\stm32f10x_it.o" "..\output\systick.o" "..\output\usart1.o" "..\output\lcd_app.o" "..\output\lcd_gui.o" "..\output\sd_bmp.o" "..\output\key_led_control.o" "..\output\ov7670.o" "..\output\sccb.o" "..\output\misc.o" "..\output\stm32f10x_dma.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_sdio.o" "..\output\stm32f10x_usart.o" "..\output\stm32f10x_fsmc.o" "..\output\stm32f10x_exti.o" "..\output\stm32f10x_spi.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" "..\output\ff.o" "..\output\diskio.o" "..\output\cc936.o" --library_type=microlib --strict --scatter "..\output\systick.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\systick.map" -o "..\output\systick.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\output\systick.axf'
+### ADS-LD Command File: '..\output\systick.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\output\systick.lnp', Handle=0x0000034C
+### Writing '.lnp' file
+### ADS-LD Command file '..\output\systick.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,28 @@
+*** Creating Trace Output File '..\Output\LCD_Displayer.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\output\lcd_display.o"'
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\picture2.o"'
+### List of Objects: adding '"..\output\picture1.o"'
+### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\stm32f10x_fsmc.o"'
+### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### ADS-LD Command completed:
+--device DARMSTM "..\output\startup_stm32f10x_hd.o" "..\output\lcd_display.o" "..\output\main.o" "..\output\picture2.o" "..\output\picture1.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_fsmc.o" "..\output\stm32f10x_gpio.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" --library_type=microlib --strict --scatter "..\Output\LCD_Displayer.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Listing\LCD_Displayer.map" -o "..\Output\LCD_Displayer.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\LCD_Displayer.axf'
+### ADS-LD Command File: '..\Output\LCD_Displayer.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\LCD_Displayer.lnp', Handle=0x000006EC
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\LCD_Displayer.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

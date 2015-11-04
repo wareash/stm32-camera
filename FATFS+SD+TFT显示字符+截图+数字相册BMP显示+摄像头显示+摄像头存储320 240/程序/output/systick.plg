@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ+…„œÒÕ∑œ‘ æ\≥Ã–Ú\USER\fatfs0.09.uvproj
+Project File Date:  08/09/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(193): error:  #20: identifier "bmpfs" is undefined
+main.c(194): error:  #20: identifier "bmpres" is undefined
+main.c(194): error:  #20: identifier "bmpfsrc" is undefined
+main.c(206): error:  #268: declaration may not appear after executable statement in block
+main.c(207): error:  #268: declaration may not appear after executable statement in block
+main.c(206): warning:  #177-D: variable "count" was declared but never referenced
+main.c(315): error:  #268: declaration may not appear after executable statement in block
+main.c(315): warning:  #940-D: missing return statement at end of non-void function "Camera_shot"
+main.c(315): error:  #67: expected a "}"
+compiling Sd_bmp.c...
+Sd_bmp.c(713): error:  #268: declaration may not appear after executable statement in block
+Sd_bmp.c(714): error:  #268: declaration may not appear after executable statement in block
+Sd_bmp.c(716): error:  #20: identifier "Vsync" is undefined
+Sd_bmp.c(719): warning:  #223-D: function "FIFO_RRST_L" declared implicitly
+Sd_bmp.c(720): warning:  #223-D: function "FIFO_RCLK_L" declared implicitly
+Sd_bmp.c(722): warning:  #223-D: function "FIFO_RCLK_H" declared implicitly
+Sd_bmp.c(723): warning:  #223-D: function "FIFO_RRST_H" declared implicitly
+Sd_bmp.c(713): warning:  #177-D: variable "count" was declared but never referenced
+Sd_bmp.c(823): warning: At end of source:  #940-D: missing return statement at end of non-void function "Camera_shot"
+Sd_bmp.c(823): error: At end of source:  #67: expected a "}"
+compiling key_led_control.c...
+key_led_control.c(122): warning:  #223-D: function "LED" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling Sd_bmp.c...
+Sd_bmp.c(713): error:  #268: declaration may not appear after executable statement in block
+Sd_bmp.c(714): error:  #268: declaration may not appear after executable statement in block
+Sd_bmp.c(716): error:  #20: identifier "Vsync" is undefined
+Sd_bmp.c(719): warning:  #223-D: function "FIFO_RRST_L" declared implicitly
+Sd_bmp.c(720): warning:  #223-D: function "FIFO_RCLK_L" declared implicitly
+Sd_bmp.c(722): warning:  #223-D: function "FIFO_RCLK_H" declared implicitly
+Sd_bmp.c(723): warning:  #223-D: function "FIFO_RRST_H" declared implicitly
+Sd_bmp.c(713): warning:  #177-D: variable "count" was declared but never referenced
+Sd_bmp.c(823): warning: At end of source:  #940-D: missing return statement at end of non-void function "Camera_shot"
+Sd_bmp.c(823): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'Target 1'
+compiling Sd_bmp.c...
+Sd_bmp.c(826): warning: At end of source:  #940-D: missing return statement at end of non-void function "Camera_shot"
+Sd_bmp.c(677): warning:  #177-D: variable "count" was declared but never referenced
+Sd_bmp.c(826): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'Target 1'
+compiling Sd_bmp.c...
+linking...
+..\output\systick.axf: Error: L6218E: Undefined symbol LED (referred from key_led_control.o).
+Target not created
+Build target 'Target 1'
+compiling key_led_control.c...
+linking...
+Program Size: Code=34762 RO-data=179518 RW-data=2676 ZI-data=58492  
+FromELF: creating hex file...
+"..\output\systick.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\output\\systick.AXF" 
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\CTQ\Desktop\FATFS+SD+TFTœ‘ æ◊÷∑˚+ΩÿÕº+ ˝◊÷œ‡≤·BMPœ‘ æ+…„œÒÕ∑œ‘ æ\≥Ã–Ú\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.209V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...

@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Archive folder\FATFS9+SD+TFTÏÔÊ¾×Ö·û\³ÌÐò\USER\fatfs0.09.uvproj
+Project File Date:  07/11/2014
+
+<h2>Output:</h2>
+Load "..\\output\\systick.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'Target 1'
+compiling Sd_bmp.c...
+Sd_bmp.c(63): warning:  #223-D: function "Lcd_data_start" declared implicitly
+Sd_bmp.c(70): warning:  #223-D: function "lcd_rst" declared implicitly
+Sd_bmp.c(71): error:  #20: identifier "i" is undefined
+Sd_bmp.c(83): warning:  #223-D: function "LCD_open_windows" declared implicitly
+Sd_bmp.c(84): warning:  #223-D: function "Lcd_data_start" declared implicitly
+Sd_bmp.c(130): warning:  #223-D: function "Set_direction" declared implicitly
+Target not created

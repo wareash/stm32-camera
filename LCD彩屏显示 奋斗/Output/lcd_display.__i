@@ -1,0 +1,1 @@
+-c --device DARMSTM -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\FWLIB\inc -I..\CMSIS -I "C:\Keil\\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\Output\lcd_display.o" --omf_browse "..\Output\lcd_display.crf" --depend "..\Output\lcd_display.d" "lcd_display.c"

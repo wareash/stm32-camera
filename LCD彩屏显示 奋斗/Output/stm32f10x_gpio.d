@@ -1,0 +1,11 @@
+..\Output\stm32f10x_gpio.o: ..\FWLIB\src\stm32f10x_gpio.c
+..\Output\stm32f10x_gpio.o: ..\FWLIB\inc\stm32f10x_gpio.h
+..\Output\stm32f10x_gpio.o: ..\CMSIS\stm32f10x.h
+..\Output\stm32f10x_gpio.o: ..\CMSIS\core_cm3.h
+..\Output\stm32f10x_gpio.o: C:\Keil\\ARM\RV31\INC\stdint.h
+..\Output\stm32f10x_gpio.o: ..\CMSIS\system_stm32f10x.h
+..\Output\stm32f10x_gpio.o: ..\USER\stm32f10x_conf.h
+..\Output\stm32f10x_gpio.o: ..\FWLIB\inc\stm32f10x_fsmc.h
+..\Output\stm32f10x_gpio.o: ..\CMSIS\stm32f10x.h
+..\Output\stm32f10x_gpio.o: ..\FWLIB\inc\stm32f10x_gpio.h
+..\Output\stm32f10x_gpio.o: ..\FWLIB\inc\stm32f10x_rcc.h
